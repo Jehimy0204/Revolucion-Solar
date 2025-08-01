@@ -39,3 +39,7 @@ function autenticar(usuario) {
     console.log("Autenticado");
   }
 }
+
+// ❌ No aceptado
+var nombre = "Juan"
+if(usuario) console.log("Autenticado")
