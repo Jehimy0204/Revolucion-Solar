@@ -1,0 +1,184 @@
+body {
+  background-image: url('../Img/ilustracion.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* CENTRA todo horizontalmente */
+  align-items: center;
+  padding: 40px 40px;
+  position: relative;
+}
+.logo{
+ position: absolute;
+ left: 10PX;
+}
+
+/* LOGO dentro del navbar */
+.logo-img {
+  height: 135px;
+  width: auto;
+}
+
+/* Menú horizontal */
+.menu a {
+  margin-left: 90px;
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color:  #4498fa;
+}
+
+/* HERO */
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.hero-text h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+/* BOTONES */
+.buttons .btn {
+  padding: 12px 25px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.primary {
+  background-color: #f589f0;  /* Color sólido por defecto */
+  color: white;
+  border: 2px solid #4498fa;
+  transition: all 0.3s ease;
+}
+.primary:hover {
+  background: #4498fa;
+}
+
+
+.secondary {
+    background-color: #4498fa;  
+  color: white;
+  border: 2px solid #f589f0;
+  transition: all 0.3s ease;
+}
+
+.secondary:hover {
+  background-color: #f589f0;
+}
+
+/* FOOTER */
+.footer {
+  position: fixed;
+  bottom: 0px; 
+  width: 100%;
+  background-color: #4498fa;
+  padding: 4px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  z-index: 999;
+  box-shadow: 0 -4px 10px #4aeb65;
+}
+
+html {
+  scroll-behavior: smooth; /*Desplazamiento suave */
+}
+
+.bloque {
+  background-color: #ffffff;
+  border-radius: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 1220px;
+  width: 100%;
+  padding: 40px;
+  margin-bottom: 85px;
+  text-align:left;
+  gap: 1000px; 
+}
+.bloque {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 88%;
+  max-width: 1100px;
+  padding: 40px;
+  margin: 60px auto;
+  gap: 40px;
+}
+
+.bloque-contenido {
+  flex: 1 1 60%;
+}
+
+.bloque-imagen {
+  flex: 1 1 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloque-imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+
+.bloque h2 {
+  font-size: 28px;
+  color: #47b3a3;
+  margin-bottom: 20px;
+}
+
+.bloque h3 {
+  font-size: 22px;
+  color: #4498fa;
+  margin-top: 20px;
+}
+
+.bloque p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: black;
+  margin-top: 10px;
+}
+
