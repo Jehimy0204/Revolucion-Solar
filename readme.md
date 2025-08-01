@@ -52,16 +52,17 @@
 - **/Img/ilustracion.gif**  
   Imagen animada de fondo para la página principal (`index.html`).
 
+- **/Img/inversionista.jpeg**  
+  Imagen utilizada en la parte de más información.
+
+- **/Img/panel.avif**  
+   Imagen utilizada en la parte de sobre nosotros.
+
 ---
 
 ## 🚀 ¿Cómo ejecutar?
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/Jehimy0204/Revolucio
-   n_Solar.git
-
-2.Abre el archivo index.html en tu navegador.
+- Abre el archivo index.html en tu navegador.
 
 ## 🧠 Tecnologías utilizadas
 - HTML5
